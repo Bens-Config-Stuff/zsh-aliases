@@ -5,7 +5,7 @@ Following Oh-My-Zsh lead i created my private plugin in the `custom/plugins` fol
 
 ## Installation
 This repo is not part (yet) of the official plugin list, so you need to install it manually:
-- `cd "$ZSH_CUSTOM/plugins" && git@github.com:Bens-Config-Stuff/zsh-aliases.git bens-config-stuff`
+- `cd "$ZSH_CUSTOM/plugins" && git clone git@github.com:Bens-Config-Stuff/zsh-aliases.git bens-config-stuff`
 - Edit your `~/.zshrc` and add `bens-config-stuff` to the list of plugins:
   `plugins=( ... bens-config-stuff )`
 - It's best to close all terminal sessions and start a fresh one to use the aliases.  
